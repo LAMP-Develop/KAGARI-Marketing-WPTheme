@@ -1,0 +1,211 @@
+body {
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-size: .9rem;
+  line-height: 1.5
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 3rem auto 1.5rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: .2rem
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 3rem auto 1.5rem auto;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  border-left: solid 2px #fef300;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 2rem auto 1.5rem auto;
+}
+
+a {
+  color: #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 auto 1rem auto;
+}
+
+p strong {
+  background: linear-gradient(transparent 75%, #fef300 75%);
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.wp-embedded-content {
+  background-color: #fff;
+  border: solid 2px #eee;
+  box-sizing: border-box;
+}
+.wp-embedded-content a {
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+ul, ol {
+  display: block;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+ul li::before {
+  content: '▪';
+  color: #fef300;
+  margin-right: 1em;
+}
+
+ul li, ol li {
+  list-style: inherit;
+  margin-bottom: .5rem
+}
+
+ul li:last-child, ol li:last-child {
+  margin-bottom: 0
+}
+
+blockquote {
+  background-color: #f7f7f7;
+  margin: 0 auto 1rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+blockquote p {
+  font-size: .8rem;
+  letter-spacing: normal;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  width: auto !important;
+  padding: .8rem;
+  border: solid 1px #f7f7f7;
+}
+
+.addtoany_content {
+  position: relative;
+  overflow: hidden;
+  margin: 2rem auto;
+}
+
+.addtoany_list.a2a_kit_size_32 a {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 0;
+  width: 20%;
+}
+
+.addtoany_list.a2a_kit_size_32 a:not(.addtoany_special_service)>span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.a2a_svg svg {
+  width: 2rem !important;
+  height: auto !important;
+}
+
+.post-btn {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 1rem auto 2rem auto
+}
+
+.post-btn a {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 240px;
+  height: auto;
+  line-height: 1;
+  font-size: 1rem;
+  color: #5fcbfd;
+  border-radius: 30px;
+  border: solid 1px #5fcbfd;
+  padding: 1.2rem 3rem;
+  text-align: center
+}
+
+.post-btn a:hover {
+  background-color: #5fcbfd;
+  color: #fff;
+  text-decoration: none
+}
+
+.point::before {
+  content: 'ポイント';
+  position: absolute;
+  top: -1.6rem;
+  left: -2px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #5fcbfd;
+  color: #fff;
+  margin: 0;
+  line-height: 1;
+  border-radius: 7px 7px 0 0;
+  font-size: .9rem;
+  padding: 7.7px 10px 3px 10px
+}
+
+.point {
+  position: relative;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: solid 2px #5fcbfd;
+  font-size: .9rem
+}
+
+.border-gray {
+  position: relative;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: solid 2px #eee
+}
+
+@media (max-width:768px) {
+  .single-ttl {
+    font-size: 1.4rem
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: .9rem;
+  }
+}
